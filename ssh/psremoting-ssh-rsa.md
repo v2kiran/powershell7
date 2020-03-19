@@ -260,7 +260,7 @@ PowerShell 7 has been installed on both the client as well as the server and the
 
 ### Public Key configuration
 
-#### Run this from the windows 10 client
+##### Run this from the windows 10 client
 
 1. Copy the public key from the Windows 10 client to Windows 2012 server:
 
@@ -278,6 +278,7 @@ PowerShell 7 has been installed on both the client as well as the server and the
 3. Placeholder
 
 ### Testing SSH with SSH.exe
+##### Run this from the windows 10 client
 
 1. Test ssh with a domain user named kiran
 
@@ -291,6 +292,7 @@ PowerShell 7 has been installed on both the client as well as the server and the
 3. Placeholder
 
 ### Testing SSH with PowerShell : Interactive
+##### Run this from the windows 10 client
 
 1. Test powershell ssh-based remoting with a domain user named kiran
 
@@ -303,6 +305,7 @@ PowerShell 7 has been installed on both the client as well as the server and the
 2. Placeholder
 
 ### Testing with SSH with PowerShell : Non-Interactive
+##### Run this from the windows 10 client
 
 1. Create a ps-session
 
