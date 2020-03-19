@@ -19,8 +19,8 @@ PowerShell 7 has been installed on both the client as well as the server and the
 
 `C:\Program Files\PowerShell\7`
 
+---
 ## On Windows 10 - Client
-
 ### Install OpenSSH
 
 1. OpenSSH feature is built into Windows 10 `build version` 1809 and above .The feature just needs to be enabled.
@@ -107,6 +107,8 @@ PowerShell 7 has been installed on both the client as well as the server and the
     2. id_rsa.pub ⇒ Public Key
 
 6. Placeholder
+
+---
 
 ## On Windows 2012 - Server
 
@@ -258,6 +260,8 @@ PowerShell 7 has been installed on both the client as well as the server and the
 
 3. Placeholder
 
+---
+
 ### Public Key configuration
 
 ##### Run this from the windows 10 client
@@ -276,6 +280,8 @@ PowerShell 7 has been installed on both the client as well as the server and the
 
 
 3. Placeholder
+
+---
 
 ### Testing SSH with SSH.exe
 ##### Run this from the windows 10 client
@@ -322,5 +328,7 @@ PowerShell 7 has been installed on both the client as well as the server and the
     This should return the name of the remote computer : **windows2012Server**
 
 3. Placeholder
+
+---
 
 >PowerShell Remoting over SSH does not currently support remote endpoint configuration and JEA (Just Enough Administration)
