@@ -26,13 +26,13 @@ PowerShell 7 has been installed on both the client as well as the server and the
 1. OpenSSH feature is built into Windows 10 `build version` 1809 and above .The feature just needs to be enabled.
 2. To check the Windows 10 build version type `Winver` in PowerShell .
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d8384c36-416e-4221-b514-270510f1e978/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d8384c36-416e-4221-b514-270510f1e978/Untitled.png)
+    ![Winver](/images/winver.png)
 
 3. Open PowerShell as Administrator and type
 
         Get-WindowsCapability -Online | where Name -like 'OpenSSH*'
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d7d23012-f37e-44ae-ad7a-7d4727cd812f/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d7d23012-f37e-44ae-ad7a-7d4727cd812f/Untitled.png)
+    ![SSH State](/images/sshstate.png)
 
 4. If the `state` of the `openssh.client` is `NotPresent` then we need to install it.
 
